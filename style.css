@@ -1,0 +1,44 @@
+/* Sidebar Styling */
+.sidebar {
+  width: 250px;
+  background: linear-gradient(to bottom, #1e3c72, #2a5298);
+  padding: 20px;
+  color: white;
+}
+
+.sidebar h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.sidebar ul {
+  list-style: none;
+  padding: 0;
+}
+
+.sidebar ul li {
+  margin: 10px 0;
+}
+
+.sidebar ul li a {
+  display: block;
+  padding: 10px;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: 0.3s;
+}
+
+.sidebar ul li a:hover,
+.sidebar ul li a.active {
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
+.sidebar ul li a.logout {
+  background-color: #e74c3c;
+  text-align: center;
+}
+
+.ml-64 pt-16 {
+  padding-top: 1rem;
+}
